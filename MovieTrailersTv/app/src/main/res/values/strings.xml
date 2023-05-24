@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">MoviesTv</string>
+  <string name="browse_title">Navegar</string>
+  <string name="watch_trailer">Ver Trailer</string>
+  <string name="ver">Ver</string>
+  <string name="title_activity_movie">MovieActivity</string>
+  <string name="dummy_button">Dummy Button</string>
+  <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

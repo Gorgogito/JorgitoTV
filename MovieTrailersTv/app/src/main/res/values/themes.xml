@@ -1,0 +1,20 @@
+<resources>
+
+  <style name="Theme.MovieTrailersTv" parent="@style/Theme.Leanback">
+    <item name="android:colorPrimary">#2a33db</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+  </style>
+
+  <style name="Theme.MovieTrailersTv.Fullscreen" parent="Theme.MovieTrailersTv">
+    <item name="android:actionBarStyle">@style/Widget.Theme.MovieTrailersTv.ActionBar.Fullscreen
+    </item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowBackground">@null</item>
+  </style>
+
+  <style name="ThemeOverlay.MovieTrailersTv.FullscreenContainer" parent="">
+    <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+    <item name="fullscreenTextColor">@color/light_blue_A200</item>
+  </style>
+</resources>
